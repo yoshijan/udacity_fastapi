@@ -30,6 +30,7 @@ jobs:
           aws-region: us-east-1
 
       - uses: iterative/setup-dvc@v1
+      - name: dvc-pull
         run: |
             dvc pull
       - name: Lint with flake8
