@@ -4,9 +4,12 @@ from sklearn.model_selection import train_test_split
 
 # Add the necessary imports for the starter code.
 import ml.data as mldata
+import pandas as pd
 
 # Add code to load in the data.
-data = []
+print("read pandas")
+data = pd.read_csv('starter/data/census_clean.csv')
+print("df created: " + str(data.shape))
 
 # Optional enhancement,
 # use K-fold cross validation instead of a train-test split.

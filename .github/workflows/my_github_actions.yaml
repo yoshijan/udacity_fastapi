@@ -29,9 +29,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET }}
           aws-region: us-east-1
 
-      - name: Copy files to s3
+      - uses: iterative/setup-dvc@v1
         run: |
-          aws s3 cp ./starter/README.md s3://udacity-fastapi-jk
+            dvc pull
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names
