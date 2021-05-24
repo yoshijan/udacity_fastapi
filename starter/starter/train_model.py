@@ -3,10 +3,13 @@
 from sklearn.model_selection import train_test_split
 
 # Add the necessary imports for the starter code.
+import ml.data as mldata
 
 # Add code to load in the data.
+data = []
 
-# Optional enhancement, use K-fold cross validation instead of a train-test split.
+# Optional enhancement,
+# use K-fold cross validation instead of a train-test split.
 train, test = train_test_split(data, test_size=0.20)
 
 cat_features = [
@@ -19,7 +22,7 @@ cat_features = [
     "sex",
     "native-country",
 ]
-X_train, y_train, encoder, lb = process_data(
+X_train, y_train, encoder, lb = mldata.process_data(
     train, categorical_features=cat_features, label="salary", training=True
 )
 
