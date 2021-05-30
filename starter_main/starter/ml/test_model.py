@@ -1,7 +1,10 @@
 from sklearn import datasets
-from starter.starter.ml.model import train_model
-from starter.starter.ml.model import compute_model_metrics
-from starter.starter.ml.model import inference
+
+from starter_main.starter.ml.model import compute_model_metrics
+from starter_main.starter.ml.model import inference
+from starter_main.starter.ml.model import train_model
+
+
 #
 def test_train_model():
     #setup
