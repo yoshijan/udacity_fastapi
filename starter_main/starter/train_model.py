@@ -96,3 +96,7 @@ def silice_test_performance(cat_features):
     #calc score
     precision, recall, fbeta =mlmodel.compute_model_metrics(y_test,preds_test)
     return precision, recall, fbeta
+
+
+if __name__ == "__main__":
+    train_model()
