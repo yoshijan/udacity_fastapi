@@ -163,6 +163,6 @@ def silice_test_performance(cat_features):
 
 
 if __name__ == "__main__":
-    #train_model()
+    train_model()
     run_fixed_variable_metric()
 
