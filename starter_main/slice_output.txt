@@ -1,0 +1,312 @@
+Start run 
+### Evaluation for workclass ### 
+calculate metrics for Private
+precision: 0.6824512534818942, recall: 0.2560083594566353, fbeta: 0.3723404255319149
+----------
+calculate metrics for Local-gov
+precision: 0.8095238095238095, recall: 0.24285714285714285, fbeta: 0.37362637362637363
+----------
+calculate metrics for ?
+precision: 0.5, recall: 0.375, fbeta: 0.42857142857142855
+----------
+calculate metrics for Self-emp-inc
+precision: 0.9, recall: 0.3130434782608696, fbeta: 0.4645161290322581
+----------
+calculate metrics for Self-emp-not-inc
+precision: 0.76, recall: 0.2550335570469799, fbeta: 0.3819095477386935
+----------
+calculate metrics for State-gov
+precision: 0.7368421052631579, recall: 0.2028985507246377, fbeta: 0.3181818181818182
+----------
+calculate metrics for Federal-gov
+precision: 0.75, recall: 0.2876712328767123, fbeta: 0.41584158415841577
+----------
+calculate metrics for Never-worked
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Without-pay
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+### Evaluation for education ### 
+calculate metrics for Some-college
+precision: 0.611764705882353, recall: 0.20233463035019456, fbeta: 0.304093567251462
+----------
+calculate metrics for HS-grad
+precision: 0.5461538461538461, recall: 0.20943952802359883, fbeta: 0.30277185501066095
+----------
+calculate metrics for Assoc-voc
+precision: 0.6666666666666666, recall: 0.23728813559322035, fbeta: 0.35
+----------
+calculate metrics for Preschool
+precision: 0.0, recall: 1.0, fbeta: 0.0
+----------
+calculate metrics for Assoc-acdm
+precision: 0.7727272727272727, recall: 0.3541666666666667, fbeta: 0.4857142857142857
+----------
+calculate metrics for 5th-6th
+precision: 0.3333333333333333, recall: 0.25, fbeta: 0.28571428571428575
+----------
+calculate metrics for Masters
+precision: 0.8857142857142857, recall: 0.2938388625592417, fbeta: 0.4412811387900356
+----------
+calculate metrics for Bachelors
+precision: 0.7987421383647799, recall: 0.2906178489702517, fbeta: 0.4261744966442953
+----------
+calculate metrics for 7th-8th
+precision: 0.25, recall: 0.16666666666666666, fbeta: 0.2
+----------
+calculate metrics for 10th
+precision: 0.4, recall: 0.18181818181818182, fbeta: 0.25000000000000006
+----------
+calculate metrics for 11th
+precision: 0.5, recall: 0.3333333333333333, fbeta: 0.4
+----------
+calculate metrics for Prof-school
+precision: 0.9310344827586207, recall: 0.3375, fbeta: 0.4954128440366973
+----------
+calculate metrics for 12th
+precision: 0.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Doctorate
+precision: 0.9565217391304348, recall: 0.36666666666666664, fbeta: 0.5301204819277108
+----------
+calculate metrics for 9th
+precision: 0.5, recall: 0.16666666666666666, fbeta: 0.25
+----------
+calculate metrics for 1st-4th
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+### Evaluation for marital-status ### 
+calculate metrics for Married-civ-spouse
+precision: 0.8170103092783505, recall: 0.24478764478764478, fbeta: 0.37670825906120026
+----------
+calculate metrics for Never-married
+precision: 0.3870967741935484, recall: 0.34951456310679613, fbeta: 0.3673469387755102
+----------
+calculate metrics for Divorced
+precision: 0.5769230769230769, recall: 0.3333333333333333, fbeta: 0.4225352112676057
+----------
+calculate metrics for Widowed
+precision: 0.5, recall: 0.35, fbeta: 0.4117647058823529
+----------
+calculate metrics for Separated
+precision: 0.6153846153846154, recall: 0.36363636363636365, fbeta: 0.4571428571428572
+----------
+calculate metrics for Married-spouse-absent
+precision: 1.0, recall: 0.5, fbeta: 0.6666666666666666
+----------
+calculate metrics for Married-AF-spouse
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
+### Evaluation for occupation ### 
+calculate metrics for Transport-moving
+precision: 0.75, recall: 0.2033898305084746, fbeta: 0.32
+----------
+calculate metrics for Machine-op-inspct
+precision: 0.5789473684210527, recall: 0.21568627450980393, fbeta: 0.3142857142857143
+----------
+calculate metrics for Craft-repair
+precision: 0.6666666666666666, recall: 0.2430939226519337, fbeta: 0.3562753036437247
+----------
+calculate metrics for Other-service
+precision: 0.2962962962962963, recall: 0.26666666666666666, fbeta: 0.28070175438596495
+----------
+calculate metrics for ?
+precision: 0.5, recall: 0.375, fbeta: 0.42857142857142855
+----------
+calculate metrics for Adm-clerical
+precision: 0.65, recall: 0.26804123711340205, fbeta: 0.3795620437956204
+----------
+calculate metrics for Prof-specialty
+precision: 0.7956204379562044, recall: 0.30704225352112674, fbeta: 0.4430894308943089
+----------
+calculate metrics for Tech-support
+precision: 0.8571428571428571, recall: 0.2222222222222222, fbeta: 0.35294117647058826
+----------
+calculate metrics for Exec-managerial
+precision: 0.8983050847457628, recall: 0.27249357326478146, fbeta: 0.418145956607495
+----------
+calculate metrics for Protective-serv
+precision: 0.7, recall: 0.16279069767441862, fbeta: 0.2641509433962264
+----------
+calculate metrics for Priv-house-serv
+precision: 0.0, recall: 1.0, fbeta: 0.0
+----------
+calculate metrics for Sales
+precision: 0.6212121212121212, recall: 0.2019704433497537, fbeta: 0.3048327137546469
+----------
+calculate metrics for Handlers-cleaners
+precision: 0.4166666666666667, recall: 0.2631578947368421, fbeta: 0.3225806451612903
+----------
+calculate metrics for Farming-fishing
+precision: 0.5833333333333334, recall: 0.3181818181818182, fbeta: 0.4117647058823529
+----------
+calculate metrics for Armed-Forces
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+### Evaluation for relationship ### 
+calculate metrics for Husband
+precision: 0.8502994011976048, recall: 0.24781849912739964, fbeta: 0.38378378378378375
+----------
+calculate metrics for Not-in-family
+precision: 0.5132743362831859, recall: 0.31868131868131866, fbeta: 0.39322033898305087
+----------
+calculate metrics for Own-child
+precision: 0.16129032258064516, recall: 0.4166666666666667, fbeta: 0.2325581395348837
+----------
+calculate metrics for Unmarried
+precision: 0.6, recall: 0.4, fbeta: 0.48
+----------
+calculate metrics for Other-relative
+precision: 0.6, recall: 0.5, fbeta: 0.5454545454545454
+----------
+calculate metrics for Wife
+precision: 0.6530612244897959, recall: 0.2222222222222222, fbeta: 0.33160621761658027
+----------
+### Evaluation for race ### 
+calculate metrics for Black
+precision: 0.6176470588235294, recall: 0.25925925925925924, fbeta: 0.36521739130434777
+----------
+calculate metrics for Other
+precision: 0.25, recall: 0.5, fbeta: 0.3333333333333333
+----------
+calculate metrics for White
+precision: 0.7234468937875751, recall: 0.26046176046176045, fbeta: 0.38302387267904503
+----------
+calculate metrics for Asian-Pac-Islander
+precision: 0.7142857142857143, recall: 0.25862068965517243, fbeta: 0.379746835443038
+----------
+calculate metrics for Amer-Indian-Eskimo
+precision: 0.5, recall: 0.25, fbeta: 0.3333333333333333
+----------
+### Evaluation for sex ### 
+calculate metrics for Male
+precision: 0.773972602739726, recall: 0.25642965204236007, fbeta: 0.3852272727272727
+----------
+calculate metrics for Female
+precision: 0.49193548387096775, recall: 0.2863849765258216, fbeta: 0.36201780415430274
+----------
+### Evaluation for native-country ### 
+calculate metrics for United-States
+precision: 0.7076023391812866, recall: 0.2592857142857143, fbeta: 0.3795086251960272
+----------
+calculate metrics for Portugal
+precision: 0.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for India
+precision: 0.6666666666666666, recall: 0.2222222222222222, fbeta: 0.3333333333333333
+----------
+calculate metrics for El-Salvador
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Guatemala
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for ?
+precision: 0.9166666666666666, recall: 0.3333333333333333, fbeta: 0.4888888888888888
+----------
+calculate metrics for Poland
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Germany
+precision: 0.5, recall: 0.14285714285714285, fbeta: 0.22222222222222224
+----------
+calculate metrics for Italy
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Cuba
+precision: 1.0, recall: 0.2, fbeta: 0.33333333333333337
+----------
+calculate metrics for Columbia
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Mexico
+precision: 0.6666666666666666, recall: 0.2222222222222222, fbeta: 0.3333333333333333
+----------
+calculate metrics for Taiwan
+precision: 0.6666666666666666, recall: 0.2857142857142857, fbeta: 0.4
+----------
+calculate metrics for England
+precision: 1.0, recall: 0.2, fbeta: 0.33333333333333337
+----------
+calculate metrics for Philippines
+precision: 1.0, recall: 0.2, fbeta: 0.33333333333333337
+----------
+calculate metrics for Laos
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Cambodia
+precision: 0.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Puerto-Rico
+precision: 0.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Jamaica
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Yugoslavia
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Vietnam
+precision: 1.0, recall: 0.3333333333333333, fbeta: 0.5
+----------
+calculate metrics for Ireland
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for China
+precision: 0.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Canada
+precision: 1.0, recall: 0.25, fbeta: 0.4
+----------
+calculate metrics for Dominican-Republic
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for France
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for South
+precision: 0.8, recall: 1.0, fbeta: 0.888888888888889
+----------
+calculate metrics for Hong
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
+calculate metrics for Greece
+precision: 0.5, recall: 0.5, fbeta: 0.5
+----------
+calculate metrics for Haiti
+precision: 0.0, recall: 1.0, fbeta: 0.0
+----------
+calculate metrics for Iran
+precision: 1.0, recall: 0.5, fbeta: 0.6666666666666666
+----------
+calculate metrics for Ecuador
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Peru
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Trinadad&Tobago
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Japan
+precision: 1.0, recall: 0.5, fbeta: 0.6666666666666666
+----------
+calculate metrics for Nicaragua
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Outlying-US(Guam-USVI-etc)
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Honduras
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Thailand
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Hungary
+precision: 1.0, recall: 1.0, fbeta: 1.0
+----------
+calculate metrics for Scotland
+precision: 1.0, recall: 0.0, fbeta: 0.0
+----------
